@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(24, 26, 32);
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.main__div {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.header {
+	padding: 5px 10px 5px 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header h2 {
+	color: rgb(240, 185, 11);
+	text-transform: uppercase;
+}
+
+.right-items {
+	display: flex;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.right-items > p:hover {
+	color: rgb(240,185,11);
+}
+
+.container {
+	max-width: 80%;
+	margin: 4rem auto;
+}
+
+.form__area h3 {
+	font-size: 30px;
+}
+
+.tabs button {
+	background: transparent;
+	color: white;
+	padding: 10px;
+	margin-top: 15px;
+	font-weight: 600;
+	cursor: pointer;
+	border: none;
+	color: gray;
+}
+
+.tabs .active {
+	background: rgb(43, 49, 57);
+	color: white;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	width: 37vw;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.form-group label {
+	font-size: 10px;
+	margin-bottom: 3px;
+}
+
+.form-group input[type="text"] {
+	padding: 10px 5px 10px 5px;
+	outline: none;
+	background: transparent;
+	color: white;
+	border:1px solid rgb(43, 49, 57);
+	border-radius: 5px;
+}
+
+.form-group input:focus {
+	border-color: rgb(240, 185, 11);
+}
+
+.form-group input:hover {
+	border-color: rgb(240, 185, 11);
+}
+
+.checkbox-area {
+	color: gray;
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+
+.checkbox-area input[type="checkbox"] {
+	background: red;
+}
+
+.btn-submit {
+	padding: 10px 5px 10px 5px;
+	cursor: pointer;
+	background: rgb(240, 185, 11);
+	border:none;
+	border-radius: 5px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.text-muted {
+	font-size: 10px;
+	color: gray;
+}
+
+.highlight {
+	color: rgb(240, 185, 11);
+	font-weight: bold;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 10rem;
+	font-size: 9px;
+	color: gray;
+}
